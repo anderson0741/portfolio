@@ -17,16 +17,16 @@ import Character from './StarwarsAPI/Sidebar/Character';
 import './App.css'
 
 class App extends Component {
-    choosePic() {
-        let { pathname } = this.props.location;
-        switch (pathname) {
-            case "/starwarsapi":
-                return "http://orig12.deviantart.net/53f9/f/2016/338/7/d/star_wars___death_star_wallpaper_by_rocklou-daqj3gl.png";
+    // choosePic() {
+    //     let { pathname } = this.props.location;
+    //     switch (pathname) {
+    //         case "/starwarsapi":
+    //             return "http://orig12.deviantart.net/53f9/f/2016/338/7/d/star_wars___death_star_wallpaper_by_rocklou-daqj3gl.png";
 
-            default:
-                return ""
-        }
-    }
+    //         default:
+    //             return ""
+    //     }
+    // }
     render() {
         console.log(this.props.location.pathname)
         const globalStyles = { backgroundImage: `url(${this.choosePic()})` }
