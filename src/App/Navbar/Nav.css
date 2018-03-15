@@ -131,95 +131,46 @@
 
 @media (max-width: 786px) {
     .mobileNav {
-
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        background-color: white;
     }
-    .dropbtn {
+    .threeLines{
+        height: 10vh;
+        background-color: rgb(231, 123, 22);
+        border: solid black 2px;
+        border-radius: 10%;
+    }
+    .mobile_dropbtn {
         background-color: rgb(231, 123, 22);
         color: white;
         padding: 16px;
         font-size: 16px;
         border: none;
     }
-    .navBod_main {
-        position: relative;
-        display: inline-block;
-    }
-    .main_dropdwn {
+    .mobile_dropdwn {
         display: none;
         position: absolute;
         background-color: #f1f1f1;
         min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
         z-index: 1;
     }
-    .main_dropdwn a {
+    .mobile_dropdwn a {
         color: black;
         padding: 12px 16px;
         text-decoration: none;
         display: block;
     }
-    .main_dropdwn a:hover {
+    .mobile_dropdwn a:active {
         background-color: #ddd
     }
-    .navBod_main:hover .main_dropdwn {
+    .mobileNav_star:active .mobile_dropdwn {
         display: block;
     }
-    .navBod_main:hover .dropbtn {
-        background-color: rgba(0, 0, 0, 0.3);
-    }
-    .navBod_level {
-        position: relative;
-        display: inline-block;
-    }
-    .level_up_dropdwn {
-        display: none;
-        position: absolute;
-        background-color: #f1f1f1;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        z-index: 1;
-    }
-    .level_up_dropdwn a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-    }
-    .mobile_level_up_dropdwn a:hover {
-        background-color: #ddd
-    }
-    .mobilNav_level:hover .mobil_level_up_dropdwn {
-        display: block;
-    }
-    .mobilNav_level:hover .mobil_dropbtn {
-        background-color: rgba(0, 0, 0, 0.3);
-    }
-    /* .starlevel {
-        position: relative;
-        display: inline-block;
-    } */
-    .mobile_star_dropdwn {
-        display: none;
-        position: absolute;
-        background-color: #f1f1f1;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        z-index: 1;
-    }
-    .mobile_star_dropdwn a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-    }
-    .mobile_star_dropdwn a:hover {
-        background-color: #ddd
-    }
-    .mobile_navBod_star:hover .mobile_star_dropdwn {
-        display: block;
-    }
-    .mobile_navBod_star:hover .mobile_dropbtn {
-        background-color: rgba(0, 0, 0, 0.3);
+    .mobileNav:active .mobile_dropbtn {
+        background-color: rgba(247, 247, 247, 0.3);
     }
     .navBod {
         display: none;
