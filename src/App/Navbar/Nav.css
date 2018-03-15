@@ -141,6 +141,7 @@
         background-color: rgb(231, 123, 22);
         border: solid black 2px;
         border-radius: 10%;
+        /* width: 0 */
     }
     .mobile_dropbtn {
         background-color: rgb(231, 123, 22);
@@ -149,7 +150,7 @@
         font-size: 16px;
         border: none;
     }
-    
+
     .mobile_dropdwn {
         display: none;
         position: absolute;
