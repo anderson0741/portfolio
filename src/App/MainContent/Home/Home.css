@@ -15,9 +15,9 @@
     .main_selector {
         display: grid;
         grid-template-columns: 400px 400px;
-        grid-template-rows: 200px 100px 400px 200px;
+        grid-template-rows: 200px 150px 400px 150px 400px 400px 200px;
         grid-gap: 50px;
-        grid-template-areas: "ab ab" "v v" "s a" "m m" "l l";
+        grid-template-areas: "ab ab" "v v" "s a" "m m" "t tr" "c sw" "l l";
     }
     .main_homeBox {
         border: solid black 2px;
@@ -85,8 +85,26 @@
         padding-right: 10px;
         box-shadow: 4px 3px 13px black;
     }
-    .misc_small{
+    .misc_small {
         grid-area: m;
+        background-image: url("../../ShrunkPix/union.jpg");
+        background-size: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+        text-shadow: 3px 3px 12px black;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 1200px 1080px;
+        border-radius: 4px;
+        border: black 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-shadow: 4px 3px 13px black;
     }
     .main_location {
         grid-area: l;
@@ -102,6 +120,90 @@
         color: white;
         text-decoration: none;
         text-shadow: 3px 3px 12px black;
+    }
+    .track{
+        grid-area: t;
+        background-image: url("../../ShrunkPix/Track.png");
+        background-size: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+        text-shadow: 3px 3px 12px black;
+        background-position: center;
+        /* background-attachment: fixed; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 4px;
+        border: black 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-shadow: 4px 3px 13px black;
+    }
+    .travel{
+        grid-area: tr;
+        background-image: url("../../ShrunkPix/Travel.png");
+        background-size: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+        text-shadow: 3px 3px 12px black;
+        background-position: center;
+        /* background-attachment: fixed; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 4px;
+        border: black 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-shadow: 4px 3px 13px black;
+    }
+    .clock{
+        grid-area: c;
+        background-image: url("../../ShrunkPix/Clock.png");
+        background-size: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+        text-shadow: 3px 3px 12px black;
+        background-position: center;
+        /* background-attachment: fixed; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 4px;
+        border: black 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-shadow: 4px 3px 13px black;
+    }
+    .starw{
+        grid-area: sw;
+        background-image: url("../../ShrunkPix/starw.png");
+        background-size: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+        text-shadow: 3px 3px 12px black;
+        background-position: center;
+        /* background-attachment: fixed; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 4px;
+        border: black 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-shadow: 4px 3px 13px black;
     }
     .littleTitle {
         margin-bottom: 0vh;
@@ -192,6 +294,27 @@
         padding-right: 10px;
         box-shadow: 4px 3px 13px black;
     }
+    .misc_small {
+        grid-area: v;
+        background-image: url("../../ShrunkPix/union.jpg");
+        background-size: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+        text-shadow: 3px 3px 12px black;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 1200px 1080px;
+        border-radius: 4px;
+        border: black 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-shadow: 4px 3px 13px black;
+    }
     .main_location {
         grid-area: l;
         background-image: url('../../ShrunkPix/location_.JPG');
@@ -209,4 +332,3 @@
         text-shadow: 3px 3px 12px black;
     }
 }
-

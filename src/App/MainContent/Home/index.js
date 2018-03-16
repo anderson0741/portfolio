@@ -50,7 +50,11 @@ function Home(props) {
                     <a className="main_aboutSelf main_homeBox" href="/about">
                         <h1>About</h1>
                     </a>
-                    <a href="" className="misc_small">Misc Small CSS</a>
+                    <h1 className="misc_small main_homeBox">Misc Small React CSS/JS</h1>
+                    <div className="track main_homeBox"></div>
+                    <div className="travel main_homeBox"></div>
+                    <div className="clock main_homeBox"></div>
+                    <div className="starw main_homeBox"></div>
                     <a href="/contact" className="main_location main_homeBox">
                         <h1>LOCATION</h1>
                     </a>
