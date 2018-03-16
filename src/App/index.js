@@ -16,7 +16,7 @@ import Starwars_API from './StarwarsAPI';
 import Travel from './Travel';
 import Track from './Track';
 import Clock from './Clock';
-import Character from './StarwarsAPI/Sidebar/Character';
+// import Character from './StarwarsAPI/Sidebar/Character';
 import Footer from './Footer';
 
 import './App.css'
