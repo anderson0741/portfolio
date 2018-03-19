@@ -1,6 +1,6 @@
 @media(min-width: 862px) {
     body {
-        background-image: url('./ShrunkPix/Autumn-Wallpapers.jpg');
+        background-image: url('../../ShrunkPix/Autumn-Wallpapers.jpg');
         background-size: cover;
         background-attachment: fixed;
         background-repeat: repeat-y;
@@ -229,7 +229,7 @@
 
 @media(max-width: 861px) {
     body{
-        background-image: url('./ShrunkPix/Autumn-Wallpapers.jpg');
+        background-image: url('../../ShrunkPix/Autumn-Wallpapers.jpg');
         background-size: cover;
         background-attachment: fixed;
         background-repeat: repeat-y;
