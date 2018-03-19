@@ -2,7 +2,6 @@ import React from 'react';
 import './Home.css';
 import Home1 from '../../ShrunkPix/home1.png';
 import Home2 from '../../ShrunkPix/home2.png';
-// import SideNav from '../SideNav';
 import '../NextLast.css';
 
 function Home(props) {
@@ -15,8 +14,8 @@ function Home(props) {
                 <button className="next_btn"><a className='levelLink' href="/level_up_create">Next</a></button>
             </div>
             <div className="outerHomeDiv">
-                <img className='contact_shot' src={Home1} alt="" />
-                <img className='contact_shot' src={Home2} alt="" />
+                <img className='contact_shot' src={Home1}/>
+                <img className='contact_shot' src={Home2}/>
             </div>
             <div className="next_last">
                 <button className="next_btn"><a className='levelLink' href="/level_up_create">Next</a></button>
