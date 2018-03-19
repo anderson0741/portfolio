@@ -1,48 +1,42 @@
 import React from 'react';
 import './Home.css';
-// import styled from 'styled-components';
+import styled from 'styled-components';
 
-// const Overlay = styled.div`
-//     display: grid;
-//     height: 100vh;
-//     width: 100vw;
-//     color: white;
-//     top: 0;
-// `;
+const Overlay = styled.div`
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    top: 0;
+`;
 
-// const Title = styled.div`
-//     grid-column: 2 / 3;
-//     grid-row: 2 /3;
-//     justify-content: center;
-// `;
+const Title = styled.div`
+    grid-column: 2 / 3;
+    grid-row: 2 /3;
+    justify-content: center;
+`;
 
-// const Name = styled.h1`
-//     font-size: 7vw;
-//     text-shadow: 3px 3px black;
-// `;
+const Name = styled.h1`
+    font-size: 7vw;
+    text-shadow: 3px 3px black;
+`;
 
-// const Subtitle = styled.h3`
-//     font-size: 4vw;
-//     text-align: center;
-//     text-shadow: 3px 3px black;
-// `;
+const Subtitle = styled.h3`
+    font-size: 4vw;
+    text-align: center;
+    text-shadow: 3px 3px black;
+`;
 
 function Home(props) {
     return (
         <div className="main_outerHomeDiv">
             <div className='main_homeDivBox'>
-                {/* <Overlay>
+                <Overlay>
                     <Title>
                         <Name className='main_tag'>Lawrence Colton Anderson</Name>
                         <Subtitle className="webD">-Web Developer</Subtitle>
                     </Title>
-                </Overlay> */}
-                <div className="Overlay">
-                    <div className="OverlayTitle">
-                        <div className='main_tag'>Lawrence Colton Anderson</div>
-                        <div className="webD">-Web Developer</div>
-                    </div>
-                </div>
+                </Overlay>
                 <div className="main_selector">
                     <h1 className="various_projects main_homeBox littleTitle">Projects</h1>
                     <a href="/level_up_home" className="main_shopCars main_homeBox">
