@@ -155,7 +155,7 @@
     .consTitle{
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        /* background-attachment: fixed; */
         background-position: center;
         display: flex;
         flex-direction: column;
@@ -170,6 +170,7 @@
         padding-left: 10px;
         padding-right: 10px;
         box-shadow: 4px 3px 13px black;
+        margin-top: 5px;
     }
     .cons1{
         background-size: cover;
