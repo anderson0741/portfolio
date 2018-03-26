@@ -9,7 +9,10 @@
     align-content: center;
     text-shadow: 3px 3px 3px rgba(77, 75, 75, 0.8);
     background-color: rgba(255, 255, 255, 0.9);
+    border: solid black 2px;
+    box-shadow: 3px 3px 3px black;
     margin: auto;
+    text-align: center;
 }
 .gitDiv{
     width: 300px;
