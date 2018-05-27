@@ -8,7 +8,6 @@ export default class Resume extends Component {
         numPages: null,
         pageNumber: 1,
     }
-
     onDocumentLoad = ({ numPages }) => {
         this.setState({ numPages });
     }
