@@ -44,7 +44,7 @@ function Home(props) {
                         <p className='sub'>Local Dealership</p>
                     </a>
                     <a className="main_aboutSelector cons1" href="/all_about_me">
-                        <h1 className='littleTitle'>All about ME</h1>
+                        <h1 className='littleTitle'>Big Eyes</h1>
                         <p className='sub'>Esthetics Web Page</p>
                     </a>
                     <a className="main_aboutSelf consTitle" href="/about">
