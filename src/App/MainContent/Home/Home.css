@@ -236,6 +236,8 @@
     }
     .subProjects {
         margin: 0;
+        text-decoration: none;
+        color: white;
     }
     .main_location {
         grid-area: l;
